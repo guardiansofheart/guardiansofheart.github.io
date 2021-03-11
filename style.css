@@ -1,5 +1,6 @@
 body {
-    background-color: #342E7A;
+    /* background-color: #342E7A; */
+    background-color: white;
     margin-bottom: 4em;
     margin-right: 2m;
     margin-left: 2em;
@@ -11,6 +12,7 @@ body {
 
 p,h1 {
     color: #202020;
+    transform: scaleY(.95);
 }
 
 h1 {
