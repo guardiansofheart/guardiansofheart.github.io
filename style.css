@@ -6,8 +6,12 @@ body {
 }
 
 * {
+    font-family: halyard-display;
+    /* "Tahoma", sans-serif; */
+}
+
+p,h1 {
     color: #202020;
-    font-family: "Tahoma", sans-serif;
 }
 
 h1 {
@@ -27,7 +31,7 @@ h1 {
   }
 
 .label {
-    font-size: large;
+    font-size: 1.4em;
 }
 
 .input-text {
