@@ -34,17 +34,17 @@
     <!-- Paypal Content -->
     <div id="smart-button-container">
       <!-- Donation input -->
-      <p style="text-align: center">Your donation amount:</p>
+      <p class="label" style="text-align: center">Your donation amount:</p>
       <div style="text-align: center"><label for="amount" class="input-text amount-input">$</label><input name="amountInput" type="number" id="amount" class="amount-input input-text" 
         value="5.00" ></div>
-        <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">A donation amount is required.</p>
+        <p class="label" id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">A donation amount is required.</p>
       
       <!-- Message/Description Content -->
-      <p style="text-align: center">Message:</p>
+      <p class="label" style="text-align: center">Message:</p>
       <div style="text-align: center"><input type="text" name="descriptionInput" id="description" class="description input-text" maxlength="127" value=""></div>
-        <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">A message is required.</p>
+        <p class="label" id="descriptionError" style="visibility: hidden; color:red; text-align: center;">A message is required.</p>
       <div id="invoiceidDiv" style="text-align: center; display: none;" class="invoice-id"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
-        <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;" class="invoice-id">Please enter an Invoice ID</p>
+        <p class="label" id="invoiceidError" style="visibility: hidden; color:red; text-align: center;" class="invoice-id">Please enter an Invoice ID</p>
       <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container" class="paypal-button-container"></div>
     </div>
 
@@ -151,6 +151,15 @@
     initPayPalButton();
     </script>
 
+    <footer>
+      <p style="text-align: center;">Guardians of Heart Inc. is a registered nonprofit in the state of Ohio. Guardians of Heart is not yet a 501(c)(3) organization, 
+        so donations made are not tax-exempt until the organization is approved for such status. For questions, email 
+        <a href="mailto:contact@guardiansofheart.org">contact@guardiansofheart.org</a>.</p>
+    </footer>
+
   </div>
+
+
+
 </body>
 </html>
