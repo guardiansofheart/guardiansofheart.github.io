@@ -129,6 +129,8 @@
           return actions.order.capture().then(function (details) {
             alert('Transaction completed by ' + details.payer.name.given_name + '!');
           });
+          // redirect to thank you page
+          // window.location.href = "https://donate.guardiansofheart.org/thank-you";
         },
 
         onError: function (err) {
@@ -138,9 +140,6 @@
     }
     initPayPalButton();
     </script>
-
-
-
 
   </div>
 </body>
